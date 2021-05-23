@@ -1,0 +1,67 @@
+.mainTitle {
+    text-align: center;
+    color: #1f03fb9c;
+    font-size: 60px;
+}
+.secondaryTitle {
+    color: #1f03fb9c;
+    font-size: 24px;
+    text-align: center;
+}
+h3 {
+    color: #1f03fb9c;
+}
+p {
+    font-family: Georgia,serif;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+.pcommon {
+    background-color: teal;
+}
+.para {
+    /* max-height: 12.5rem;
+    overflow: hidden;
+    overflow-y: scroll; */
+    width: 96%;
+    margin-left: 2%;
+    box-shadow: 0 .0rem .5rem rgba(0,0,0,.15);
+    padding: 10px;
+}
+.para:hover {
+    box-shadow: 0 0.5rem 1rem #3357bdad;
+}
+
+.para.pcommon {
+    background-color: grey;
+}
+.main .para {
+    color: greenyellow;
+}
+#elementId {
+    color: white;
+}
+.mainbutton {
+    width: 200px;
+    padding: 10px;
+    font-size: 21px;
+    background: green;
+    color: white;
+}
+.mask {
+    background: #80808075;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 53;
+    text-align: center;
+    padding-top: 30vh;
+}
+@media (max-width: 600px) {
+    p {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+}
